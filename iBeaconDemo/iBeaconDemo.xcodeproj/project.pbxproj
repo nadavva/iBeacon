@@ -21,7 +21,6 @@
 		D573F9231805C4A5001004B2 /* CSMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D573F91D1805C4A5001004B2 /* CSMRootViewController.m */; };
 		D5A433401808415F00228EFC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D573F927180601B1001004B2 /* CoreLocation.framework */; };
 		D5A433421808417600228EFC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A433411808417600228EFC /* CoreBluetooth.framework */; };
-		F778122018AA76BB00E5EAB5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F778121F18AA76BB00E5EAB5 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +48,6 @@
 		D573F91D1805C4A5001004B2 /* CSMRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMRootViewController.m; sourceTree = "<group>"; };
 		D573F927180601B1001004B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D5A433411808417600228EFC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
-		F778121F18AA76BB00E5EAB5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +113,6 @@
 				D573F9191805C4A5001004B2 /* CSMBeaconRegion.m */,
 				D573F8F51805C469001004B2 /* Images.xcassets */,
 				D573F8EA1805C469001004B2 /* Supporting Files */,
-				F778121F18AA76BB00E5EAB5 /* Storyboard.storyboard */,
 			);
 			path = iBeaconDemo;
 			sourceTree = "<group>";
@@ -185,7 +182,6 @@
 			files = (
 				D573F8EE1805C469001004B2 /* InfoPlist.strings in Resources */,
 				D573F8F61805C469001004B2 /* Images.xcassets in Resources */,
-				F778122018AA76BB00E5EAB5 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

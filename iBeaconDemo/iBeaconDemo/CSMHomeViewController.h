@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CSMHomeViewController : UIViewController
+@interface CSMHomeViewController : UIViewController <UITextFieldDelegate>
 
 @end

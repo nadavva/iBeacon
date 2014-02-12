@@ -24,9 +24,15 @@ static CSMBeaconRegion *_sharedInstance = nil;
 
 - (id)init {
     
+    NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+    NSString *posX = [prefs objectForKey:@"posX"];
+    NSString *posY = [prefs objectForKey:@"posY"];
+    NSString *iName = [prefs objectForKey:@"iName"];
     // initialize a new CLBeaconRegion with application-specific UUID and human-readable identifier
-    self = [super initWithProximityUUID:[CSMAppDelegate appDelegate].myUUID
-                                              identifier:kUniqueRegionIdentifier];
+    //self = [super initWithProximityUUID:[CSMAppDelegate appDelegate].myUUID
+      //                                        identifier:kUniqueRegionIdentifier];
+
+    self = [super initWithProximityUUID:[CSMAppDelegate appDelegate].myUUID major:[posX doubleValue] minor:[posY doubleValue] identifier:iName];
     
     if (self) {
         self.notifyEntryStateOnDisplay = YES;     // only notify user if app is active
